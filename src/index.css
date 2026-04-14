@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 33% 93%;
+    --foreground: 10 20% 11%;
+
+    --card: 36 33% 93%;
+    --card-foreground: 10 20% 11%;
+
+    --popover: 36 33% 93%;
+    --popover-foreground: 10 20% 11%;
+
+    --primary: 338 100% 65%;
+    --primary-foreground: 36 33% 93%;
+
+    --secondary: 16 40% 25%;
+    --secondary-foreground: 36 33% 93%;
+
+    --muted: 36 20% 85%;
+    --muted-foreground: 10 10% 40%;
+
+    --accent: 56 86% 62%;
+    --accent-foreground: 10 20% 11%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 36 15% 80%;
+    --input: 36 15% 80%;
+    --ring: 338 100% 65%;
+
+    --radius: 0.25rem;
+
+    /* Brand tokens */
+    --brand-pink: 338 100% 65%;
+    --brand-chocolate: 16 40% 25%;
+    --brand-yellow: 56 86% 62%;
+    --brand-offwhite: 36 33% 93%;
+    --brand-deep: 10 20% 11%;
+    --brand-blue: 213 22% 54%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-editorial {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .text-display {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  .text-body {
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .bg-brand-deep {
+    background-color: hsl(var(--brand-deep));
+  }
+
+  .text-brand-offwhite {
+    color: hsl(var(--brand-offwhite));
+  }
+
+  .bg-brand-pink {
+    background-color: hsl(var(--brand-pink));
+  }
+
+  .bg-brand-yellow {
+    background-color: hsl(var(--brand-yellow));
+  }
+
+  .bg-brand-chocolate {
+    background-color: hsl(var(--brand-chocolate));
+  }
+
+  .text-brand-pink {
+    color: hsl(var(--brand-pink));
+  }
+
+  .text-brand-yellow {
+    color: hsl(var(--brand-yellow));
+  }
+
+  .text-brand-chocolate {
+    color: hsl(var(--brand-chocolate));
+  }
+
+  .text-brand-deep {
+    color: hsl(var(--brand-deep));
+  }
+
+  .text-brand-blue {
+    color: hsl(var(--brand-blue));
+  }
+
+  .border-brand-pink {
+    border-color: hsl(var(--brand-pink));
+  }
+
+  .border-brand-chocolate {
+    border-color: hsl(var(--brand-chocolate));
+  }
+
+  .border-brand-yellow {
+    border-color: hsl(var(--brand-yellow));
+  }
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection */
+::selection {
+  background-color: hsl(var(--brand-pink) / 0.3);
+  color: hsl(var(--brand-deep));
+}
