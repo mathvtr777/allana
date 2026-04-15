@@ -1,4 +1,4 @@
-import smileImg from "@/assets/smile-closeup.jpg";
+import smileImg from "/imagens/allana.jpeg";
 
 const testimonials = [
   {
@@ -40,7 +40,7 @@ const SocialProofSection = () => {
             <div className="relative">
               <img
                 src={smileImg}
-                alt="Sorriso natural resultado de tratamento"
+                alt="Dra. Allana, cirurgiã-dentista"
                 className="w-full h-64 md:h-80 object-cover"
                 loading="lazy"
                 width={1280}
