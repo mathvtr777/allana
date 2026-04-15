@@ -1,4 +1,4 @@
-import smileImg from "/imagens/allana.jpeg";
+import smileImg from "/imagens/correto.jpeg";
 
 const testimonials = [
   {
