@@ -15,13 +15,13 @@ const services = [
     accent: "bg-brand-chocolate",
   },
   {
-    title: "ESTÉTICA DO SORRISO",
-    description: "Procedimentos que valorizam a harmonia do seu sorriso — de forma sutil, natural e personalizada.",
+    title: "RECONTORNO",
+    description: "Dando um novo formato aos seus dentes isso sem desgastes. Transformando seu sorriso no mesmo dia.",
     accent: "bg-brand-pink",
   },
   {
-    title: "ESTÉTICA FACIAL",
-    description: "Tratamentos faciais complementares que promovem rejuvenescimento e equilíbrio, com foco em naturalidade.",
+    title: "HARMONIZAÇÃO",
+    description: "Tratamentos com toxina botulínica como prevenção de rugas e preenchimento labial, pra devolver hidratação e volume a lábios finos.",
     accent: "bg-brand-yellow",
   },
 ];
