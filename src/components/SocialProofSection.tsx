@@ -41,7 +41,7 @@ const SocialProofSection = () => {
               <img
                 src={smileImg}
                 alt="Dra. Allana, cirurgiã-dentista"
-                className="w-full h-64 md:h-80 object-cover"
+                className="w-full h-64 md:h-80 object-cover object-top"
                 loading="lazy"
                 width={1280}
                 height={720}
