@@ -34,7 +34,7 @@ const FinalCTASection = () => {
           </a>
 
           <p className="font-body text-brand-offwhite/50 text-xs tracking-widest uppercase">
-            Volta Redonda · RJ
+            Volta Redonda & Rio de Janeiro · RJ
           </p>
         </div>
         </RevealSection>

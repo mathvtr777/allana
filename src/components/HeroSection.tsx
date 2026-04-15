@@ -21,7 +21,7 @@ const HeroSection = () => {
                 Alinhador Invisível · Odontologia & Estética
               </p>
               <p className="font-body text-brand-blue text-xs tracking-widest uppercase">
-                CRO-RJ 53186 · Volta Redonda
+                CRO-RJ 53186 · Volta Redonda & Rio de Janeiro
               </p>
             </div>
 

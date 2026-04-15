@@ -23,7 +23,7 @@ const AboutSection = () => {
             <div className="w-16 h-1 bg-brand-pink" />
             <p className="font-body text-foreground/80 text-lg md:text-xl leading-relaxed">
               Sou <strong className="text-foreground font-semibold">Allana</strong>, cirurgiã-dentista em{" "}
-              <strong className="text-foreground font-semibold">Volta Redonda</strong> e co-fundadora da{" "}
+              <strong className="text-foreground font-semibold">Volta Redonda</strong> e <strong className="text-foreground font-semibold">Rio de Janeiro</strong>, co-fundadora da{" "}
               <span className="font-editorial italic text-brand-chocolate">Aya Odontologia</span>.
             </p>
             <p className="font-body text-foreground/70 text-base md:text-lg leading-relaxed">

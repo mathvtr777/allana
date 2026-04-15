@@ -88,7 +88,7 @@ const SplashScreen = ({ onComplete }: { onComplete: () => void }) => {
             opacity: phase >= 3 ? 1 : 0,
           }}
         >
-          CRO-RJ 53186 · Volta Redonda
+          CRO-RJ 53186 · Volta Redonda & Rio de Janeiro
         </p>
       </div>
     </div>

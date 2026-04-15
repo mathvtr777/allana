@@ -8,7 +8,7 @@ const FooterSection = () => {
               ALLANA<span className="text-brand-pink">.</span>
             </p>
             <p className="font-body text-brand-offwhite/40 text-xs mt-1">
-              CRO-RJ 53186 · Volta Redonda, RJ
+              CRO-RJ 53186 · Volta Redonda & Rio de Janeiro, RJ
             </p>
           </div>
           <p className="font-body text-brand-offwhite/30 text-xs">
